@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/main_stores/create_item_master', function () {
+    return view('main_stores.create_item_master');
 });

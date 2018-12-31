@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/main_stores/create_item_master', function () {
-    return view('main_stores.create_item__type_master');
+Route::get('/main_stores/create_item_type_master', function () {
+    return view('main_stores.create_item_type_master');
 });

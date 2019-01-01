@@ -5,23 +5,19 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                    <h4 class="card-title">Create Medicine Item Sub Type Master</h4>
+                    <h4 class="card-title">Create Indent</h4>
                     <div class="form-group row">
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label">ITEM SUB TYPE NAME</label>
-                        <div class="col-sm-9" style="margin-bottom: 4px;">
-                            <input type="text" class="form-control" id="fname" placeholder="Type subtype name here">
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label">ANNUAL_INDENT_NO</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname" placeholder="Enter Indent number">
                         </div>
-
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label">ITEM TYPE NAME</label>
-                        <div class="col-sm-9" style="margin-bottom: 4px;">
-                          <select class="form-control">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="mercedes">Mercedes</option>
-                            <option value="audi">Audi</option>
-                          </select>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label">ANNUAL_INDENT_DESC</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname" placeholder="Enter Indent Description">
+                        </div>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label">YEAR</label>
+                        <div class="col-sm-9">
+                            <input type="number" min="1990" max="2100" class="form-control" id="fname" placeholder="Select Year">
                         </div>
                     </div>
 
@@ -33,7 +29,11 @@
                 </div>
             </form>
         </div>
+
+
+
     </div>
+
 </div>
 <div class="card">
     <div class="card-body">

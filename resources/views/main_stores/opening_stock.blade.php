@@ -5,7 +5,7 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                    <h4 class="card-title">Create Medicine Item Master</h4>
+                    <h4 class="card-title">Opening Stock</h4>
                     <div class="form-group row">
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">ITEM SUB TYPE NAME</label>
                         <div class="col-sm-9">
@@ -60,9 +60,29 @@
                             <input type="number" class="form-control" id="fname" placeholder="Type name here">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label">MINIMUM STOCK QUANTITY</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MINIMUM STOCK QUANTITY</label>
                         <div class="col-sm-9">
                             <input type="number" class="form-control" id="fname" placeholder="Type name here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">STOCK IN HAND</label>
+                        <div class="col-sm-9">
+                            <input type="number" class="form-control" id="fname" placeholder="Type name here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BATCH NO</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname" placeholder="Type name here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">EXPIRY DATE</label>
+                        <div class="col-sm-9">
+                            <input type="date" class="form-control" id="fname" placeholder="Type name here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MANUFACTURE DATE</label>
+                        <div class="col-sm-9">
+                            <input type="date" class="form-control" id="fname" placeholder="Type name here">
                         </div>
                     </div>
 

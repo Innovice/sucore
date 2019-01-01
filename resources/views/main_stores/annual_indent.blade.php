@@ -7,15 +7,15 @@
                 <div class="card-body">
                     <h4 class="card-title">Create Indent</h4>
                     <div class="form-group row">
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label">ANNUAL_INDENT_NO</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ANNUAL_INDENT_NO</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="fname" placeholder="Enter Indent number">
                         </div>
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label">ANNUAL_INDENT_DESC</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ANNUAL_INDENT_DESC</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="fname" placeholder="Enter Indent Description">
                         </div>
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label">YEAR</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">YEAR</label>
                         <div class="col-sm-9">
                             <input type="number" min="1990" max="2100" class="form-control" id="fname" placeholder="Select Year">
                         </div>

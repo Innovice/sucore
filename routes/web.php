@@ -99,3 +99,6 @@ Route::get('/sub_store/auto_indent_depleted_stock', function () {
 Route::get('/sub_store/indent_for_dispatch_items', function () {
     return view('sub_store.indent_for_dispatch_items');
 });
+Route::get('/sub_store/indent_for_supply_to_inter_rail', function () {
+    return view('sub_store.indent_for_supply_to_inter_rail');
+});

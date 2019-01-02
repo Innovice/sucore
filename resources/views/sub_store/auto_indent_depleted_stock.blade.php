@@ -5,16 +5,16 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                    <h4 class="card-title">Auto Indent for Depleted Stock</h4>
+                    <h4 class="card-title">Receipt of Items of Inter / Intra Railway</h4>
                     <div class="form-group row">
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">REQUISITION ID</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname">
+                            <input type="text" class="form-control" id="fname" placeholder="Enter Requisition ID">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MEDICINE DESCRIPTION</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname">
+                            <input type="text" class="form-control" id="fname" placeholder="Enter Medicine description">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>QUANTITY REQUIRED</label>

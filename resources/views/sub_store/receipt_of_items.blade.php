@@ -5,35 +5,47 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                    <h4 class="card-title">Indent for Requisition of Items</h4>
+                    <h4 class="card-title">Indent for Dispatch of Item (Sub Store/Dispensary/Wards)</h4>
                     <div class="form-group row">
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">REQUISITION ID</label>
+                        <div class="col-sm-9">
+                            <input type="number" class="form-control" id="fname" placeholder="Enter requisition id">
+                        </div>
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">MEDICINE DESCRIPTION</label>
                         <div class="col-sm-9">
-                        <input type="text" class="form-control" id="fname" placeholder="Enter Medicine Description">
+                            <input type="text" class="form-control" id="fname" placeholder="Enter Medicine Description">
                         </div>
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">QUANTITY REQUIRED</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">DATE OF RECEIPT</label>
                         <div class="col-sm-9">
-                        <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter quantity required">
-                        </div>
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">BALANCE IN HAND</label>
-                        <div class="col-sm-9">
-                        <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter Balance in Hand">
-                        </div>
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">LAST SUPPLIED QUANTITY</label>
-                        <div class="col-sm-9">
-                        <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter last supplied quantity">
-                        </div>
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">LAST SUPPLIED REQUISITION NUMBER</label>
-                        <div class="col-sm-9">
-                        <input type="text" class="form-control" id="fname" placeholder="Enter last supplied requisition number">
+                            <input type="date" class="form-control" id="fname" placeholder="Enter date of receipt">
                         </div>
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">DATE OF REQUISITION</label>
                         <div class="col-sm-9">
-                        <input type="date" class="form-control" id="fname" placeholder="Enter date of requisition">
+                            <input type="date" class="form-control" id="fname" placeholder="Enter date of requisition">
                         </div>
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">DATE OF REQUISITION</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">QUANTITY REQUESTED</label>
                         <div class="col-sm-9">
-                        <input type="date" class="form-control" id="fname" placeholder="Enter date of requisition">
+                            <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter quantity requested">
+                        </div>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">QUANTITY ISSUED</label>
+                        <div class="col-sm-9">
+                            <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter quantity issued">
+                        </div>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">BATCH NUMBER</label>
+                        <div class="col-sm-9">
+                            <input type="text" step="0.01" class="form-control" id="fname" placeholder="Enter batch number">
+                        </div>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">DATE OF MANUFACTURE</label>
+                        <div class="col-sm-9">
+                            <input type="date" class="form-control" id="fname" placeholder="Enter date of Manufacture">
+                        </div>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">DATE OF EXPIRY</label>
+                        <div class="col-sm-9">
+                            <input type="date" class="form-control" id="fname" placeholder="Enter date of expiry">
+                        </div>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">BALANCE</label>
+                        <div class="col-sm-9">
+                            <input type="number" class="form-control" id="fname" placeholder="Enter Balance">
                         </div>
                     </div>
                 </div>

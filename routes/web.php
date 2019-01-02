@@ -87,3 +87,6 @@ Route::get('/sub_store/requisition', function () {
 Route::get('/sub_store/requisition_item_desc', function () {
     return view('sub_store.requisition_item_desc');
 });
+Route::get('/sub_store/opening_stock', function () {
+    return view('sub_store.opening_stock');
+});

@@ -33,6 +33,11 @@ Route::get('/main_stores/partB_annual_indent', function () {
 Route::get('/main_stores/rate_contract_purchase_indent', function () {
     return view('main_stores.rate_contract_purchase_indent');
 });
+
 Route::get('/main_stores/supplementary_indent', function () {
     return view('main_stores.supplementary_indent');
+});
+
+Route::get('/main_stores/supplementary_indent_item_desc', function () {
+    return view('main_stores.supplementary_indent_item_desc');
 });

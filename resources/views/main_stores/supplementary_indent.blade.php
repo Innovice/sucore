@@ -5,43 +5,29 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                    <h4 class="card-title">Item section for Annual Indent</h4>
-                    <div class="form-group row">
-                      <label for="fname" class="col-sm-3 text-right control-label col-form-label">SELECT THE INDENT NUMBER</label>
-                      <div class="col-sm-9" style="margin-bottom: 4px;">
-                        <select class="form-control">
-                          <option value="volvo">Volvo</option>
-                          <option value="saab">Saab</option>
-                          <option value="mercedes">Mercedes</option>
-                          <option value="audi">Audi</option>
-                        </select>
-                      </div>
-
-                  <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">SUPPLEMENTARY INDENT NUMBER</label>
-                  <div class="col-sm-9">
-                      <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter supplementary indent number">
-                  </div>
-                  <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">SUPPLEMENTARY_INDENT_DESC</label>
-                  <div class="col-sm-9">
-                      <input type="text" class="form-control" id="fname" placeholder="Enter description">
-                  </div>
-                  <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">DATE</label>
-                  <div class="col-sm-9">
-                      <input type="date" min="01-01-1990" max="31-12-2999" class="form-control" id="fname" placeholder="Enter date">
-                  </div>
-                </div>
-                <div class="border-top">
-                    <div class="card-body">
-                        <button type="button" class="btn btn-primary">Submit</button>
+                  <h4 class="card-title">Supplementary Indent</h4>
+                  <div class="form-group row">
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">SUPPLEMENTARY INDENT NUMBER</label>
+                    <div class="col-sm-9">
+                        <input type="number" class="form-control" id="fname" placeholder="Enter supplementary indent number">
                     </div>
-                </div>
-            </form>
-        </div>
-
-
-
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">SUPPLEMENTARY_INDENT_DESC</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="fname" placeholder="Enter description">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">DATE</label>
+                    <div class="col-sm-9">
+                        <input type="date" min="01-01-1990" max="31-12-2999" class="form-control" id="fname" placeholder="Enter date">
+                    </div>
+                  </div>
+                  <div class="border-top">
+                      <div class="card-body">
+                          <button type="button" class="btn btn-primary">Submit</button>
+                      </div>
+                  </div>
+              </form>
+          </div>
     </div>
-
 </div>
 <div class="card">
     <div class="card-body">

@@ -29,3 +29,7 @@ Route::get('/main_stores/inter_intra_railway_indent', function () {
 Route::get('/main_stores/partB_annual_indent', function () {
     return view('main_stores.partB_annual_indent');
 });
+
+Route::get('/main_stores/rate_contract_purchase_indent', function () {
+    return view('main_stores.rate_contract_purchase_indent');
+});

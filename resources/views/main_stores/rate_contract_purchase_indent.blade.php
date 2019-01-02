@@ -5,90 +5,33 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                    <h4 class="card-title">Opening Stock</h4>
+                    <h4 class="card-title">Rate Contract Purchase Indent</h4>
                     <div class="form-group row">
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">ITEM SUB TYPE NAME</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">RC NO.</label>
                         <div class="col-sm-9">
-                          <select class="form-control" id="sel1">
-                          <option>Select sub type from here</option>
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                        </select>
+                            <input type="text" class="form-control" id="fname" placeholder="Type RC number here">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">ITEM TYPE NAME</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">INDENT ID</label>
                         <div class="col-sm-9">
-                          <select class="form-control" id="sel1">
-                          <option>Select item type from here</option>
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                        </select>
+                            <input type="number" class="form-control" id="fname" placeholder="Type indent id here">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">ITEM NAME</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">INDENT NO</label>
                         <div class="col-sm-9">
-                          <select class="form-control" id="sel1">
-                          <option>Select item name from here</option>
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                        </select>
+                            <input type="text" class="form-control" id="fname" placeholder="Type indent number here">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DOSAGES</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">RC PUCHASE DESCRIPTION</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="text" class="form-control" id="fname" placeholder="Type RC description here">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">UNITS</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label">DATE</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="date" class="form-control" id="fname" placeholder="Select Date">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">COUNT PER UNIT</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type name here">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BOX COUNT</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type name here">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MINIMUM STOCK QUANTITY</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type name here">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">PREFERRED STOCK QUANTITY</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type name here">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">STOCK IN HAND</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type name here">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BATCH NO.</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Type name here">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MANUFACTURE DATE</label>
-                        <div class="col-sm-9">
-                            <input type="date" class="form-control" id="fname" placeholder="Type name here">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">EXPIRY DATE</label>
-                        <div class="col-sm-9">
-                            <input type="date" class="form-control" id="fname" placeholder="Type name here">
-                        </div>
 
                     </div>
 

@@ -5,7 +5,7 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                    <h4 class="card-title">Indent for Dispatch of Item (Sub Store/Dispensary/Wards)</h4>
+                    <h4 class="card-title">Receipt of Item (Main Medical Store/Dispensary)</h4>
                     <div class="form-group row">
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">REQUISITION ID</label>
                         <div class="col-sm-9">

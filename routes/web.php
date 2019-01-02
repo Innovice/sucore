@@ -75,4 +75,15 @@ Route::get('/main_stores/stocks_in_and_out_cdsco', function () {
 
 Route::get('/main_stores/auto_indent', function () {
     return view('main_stores.auto_indent');
-})
+});
+
+
+
+
+/*--SUB STORE--*/
+Route::get('/sub_store/requisition', function () {
+    return view('sub_store.requisition');
+});
+Route::get('/sub_store/requisition_item_desc', function () {
+    return view('sub_store.requisition_item_desc');
+});

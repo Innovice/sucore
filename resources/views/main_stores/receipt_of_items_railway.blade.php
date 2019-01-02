@@ -5,23 +5,14 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                    <h4 class="card-title">Receipt of Items of RC purchase / supplementary indent </h4>
+                    <h4 class="card-title">Receipt of Items of Inter / Intra Railway</h4>
                     <div class="form-group row">
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>INDENT NO.</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname">
-                        </div>
+                        <!--
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>ITEM</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname">
-                        </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>ITEMS QUANTITY</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname">
-                        </div>
+
+
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">PO NUMBER</label>
                         <div class="col-sm-9">
@@ -31,16 +22,41 @@
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">NAME OF PARTY</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="fname">
-                        </div>
+                        </div>-->
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">NAME OF MEDICINE MANUFACTURER</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MEDICINE DESCRIPTION</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="fname">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">LAST DATE OF PO</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>QUANTITY QUANTITY</label>
+                        <div class="col-sm-9">
+                            <input type="number" class="form-control" id="fname">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>JUSTIFICATION</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>INDENT ID</label>
+                        <div class="col-sm-9">
+                            <input type="number" class="form-control" id="fname">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>RAILWAY</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DATE OF INDENT</label>
                         <div class="col-sm-9">
                             <input type="date" class="form-control" id="fname">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>ITEM SENT</label>
+                        <div class="col-sm-9">
+                            <input type="number" class="form-control" id="fname">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">UNIT COST</label>
@@ -48,33 +64,9 @@
                             <input type="number" class="form-control" id="fname">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">TOTAL COST WITH OUT GST</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">TOTAL COST</label>
                         <div class="col-sm-9">
                             <input type="number" class="form-control" id="fname">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">GST PERCENTAGE</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">GST INCLUSIVE / EXCLUSIVE</label>
-                        <div class="col-sm-9">
-                          <select class="form-control">
-                          <option>Select out from here</option>
-                          <option>INCLUSIVE</option>
-                          <option>EXCLUSIVE</option>
-                        </select>
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">GST AMOUNT</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">GRAND TOTAL</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DATE OF RECIEPT	</label>

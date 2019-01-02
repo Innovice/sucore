@@ -45,7 +45,10 @@
                     </div>
                     <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">TRANSACTION TYPE</label>
                     <div class="col-sm-9">
-                        <input type="text" class="form-control" id="fname" placeholder="Enter transaction type">
+                      <select class="form-control" id="sel1">
+                        <option>STOCK IN</option>
+                        <option>STOCK OUT</option>
+                    </select>
                     </div>
                   </div>
                   <div class="border-top">

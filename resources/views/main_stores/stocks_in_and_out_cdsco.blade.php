@@ -43,6 +43,10 @@
                     <div class="col-sm-9">
                         <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter unit cost">
                     </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">TRANSACTION TYPE</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="fname" placeholder="Enter transaction type">
+                    </div>
                   </div>
                   <div class="border-top">
                       <div class="card-body">

@@ -72,8 +72,22 @@
                   <div class="col-sm-9">
                       <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter net quantity required">
                   </div>
-
-
+                  <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">TOTAL ESTIMATION COST</label>
+                  <div class="col-sm-9">
+                      <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter total estimated cost">
+                  </div>
+                  <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">TOTAL ESTIMATION COST</label>
+                  <div class="col-sm-9">
+                      <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter total estimated cost">
+                  </div>
+                  <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">TOTAL QTY SANCTIONED</label>
+                  <div class="col-sm-9">
+                      <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter total quantity sanctioned">
+                  </div>
+                  <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ITEM TYPE</label>
+                  <div class="col-sm-9">
+                      <input type="text" class="form-control" id="fname" placeholder="Enter item type">
+                  </div>
                 </div>
                 <div class="border-top">
                     <div class="card-body">

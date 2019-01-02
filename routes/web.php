@@ -17,3 +17,11 @@ Route::get('/main_stores/opening_stock', function () {
 Route::get('/main_stores/annual_indent', function () {
     return view('main_stores.annual_indent');
 });
+
+Route::get('/main_stores/inter_intra_railway_indent', function () {
+    return view('main_stores.inter_intra_railway_indent');
+});
+
+Route::get('/main_stores/partB_annual_indent', function () {
+    return view('main_stores.partB_annual_indent');
+});

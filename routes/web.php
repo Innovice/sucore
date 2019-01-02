@@ -56,3 +56,7 @@ Route::get('/main_stores/purchase_order_receipt', function () {
 Route::get('/main_stores/dispatch_of_items', function () {
     return view('main_stores.dispatch_of_items');
 });
+
+Route::get('/main_stores/receipt_of_items_rc_supply', function () {
+    return view('main_stores.receipt_of_items_rc_supply');
+});

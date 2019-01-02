@@ -5,35 +5,31 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                  <h4 class="card-title">Item Selection for Supplementary Indent</h4>
+                  <h4 class="card-title">Item Selection for Rate Contract Purchase</h4>
                   <div class="form-group row">
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">SUPPLEMENTARY INDENT NUMBER</label>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">RATE CONTRACT NUMBER</label>
                     <div class="col-sm-9">
-                        <input type="number" class="form-control" id="fname" placeholder="Enter supplementary indent number">
+                        <input type="number" class="form-control" id="fname" placeholder="Enter rate contract number">
                     </div>
                     <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">MEDICINE_DESC</label>
                     <div class="col-sm-9">
                         <input type="text" class="form-control" id="fname" placeholder="Enter description">
                     </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">QUANTITY_SANCTIONED</label>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">QUANTITY_SANCTIONED_ANNUAL_INDENT</label>
                     <div class="col-sm-9">
                         <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter quantity sanctioned">
                     </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">BALANCE_TO_BE_PROCURED</label>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">QUANTITY_RECEIVED_AGAINT_ANNUAL_INDENT</label>
                     <div class="col-sm-9">
-                        <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter balance to be procured">
+                        <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter quantity received">
                     </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">UNIT_COST</label>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">STOCK_IN_HAND</label>
                     <div class="col-sm-9">
-                        <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter unit cost">
+                        <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter stock in hand">
                     </div>
                     <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">QUANTITY_REQUIRED</label>
                     <div class="col-sm-9">
                         <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter quantity required">
-                    </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">TOTAL_AMOUNT</label>
-                    <div class="col-sm-9">
-                        <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter total amount">
                     </div>
                     <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">LAST_PO_NUMBER</label>
                     <div class="col-sm-9">
@@ -43,13 +39,17 @@
                     <div class="col-sm-9">
                         <input type="date" min="01-01-1990" max="31-12-2999" class="form-control" id="fname" placeholder="Enter date">
                     </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ANNIAL_INDENT NUMBER</label>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ANNUAL_INDENT NUMBER</label>
                     <div class="col-sm-9">
                         <input type="text" class="form-control" id="fname" placeholder="Enter annual indent number">
                     </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">JUSTIFICATION</label>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">VALID_TO_DATE</label>
                     <div class="col-sm-9">
-                        <input type="text" class="form-control" id="fname" placeholder="Enter justification">
+                        <input type="date" class="form-control" id="fname" placeholder="Enter date">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">STATUS</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="fname" placeholder="Enter status">
                     </div>
                   </div>
                   <div class="border-top">

@@ -43,3 +43,6 @@ Route::get('/main_stores/inter_railway_indent_medicines_item_description', funct
 Route::get('/main_stores/supplementary_indent_item_desc', function () {
     return view('main_stores.supplementary_indent_item_desc');
 });
+Route::get('/main_stores/rate_contract_purchase_item_desc', function () {
+    return view('main_stores.rate_contract_purchase_item_desc');
+});

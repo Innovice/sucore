@@ -60,3 +60,6 @@ Route::get('/main_stores/dispatch_of_items', function () {
 Route::get('/main_stores/receipt_of_items_rc_supply', function () {
     return view('main_stores.receipt_of_items_rc_supply');
 });
+Route::get('/main_stores/supply_of_items_inter_railways', function () {
+    return view('main_stores.supply_of_items_inter_railways');
+});

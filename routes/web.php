@@ -53,3 +53,6 @@ Route::get('/main_stores/rate_contract_purchase_item_desc', function () {
 Route::get('/main_stores/purchase_order_receipt', function () {
     return view('main_stores.purchase_order_receipt');
 });
+Route::get('/main_stores/dispatch_of_items', function () {
+    return view('main_stores.dispatch_of_items');
+});

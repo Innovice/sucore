@@ -8,53 +8,17 @@
                     <h4 class="card-title">Receipt of Items of Inter / Intra Railway</h4>
                     <div class="form-group row">
 
-                        <!--
-
-
-
-
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">PO NUMBER</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">NAME OF PARTY</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname">
-                        </div>-->
-
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MEDICINE DESCRIPTION</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="fname">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>QUANTITY QUANTITY</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>QUANTITY SANCTIONED</label>
                         <div class="col-sm-9">
                             <input type="number" class="form-control" id="fname">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>JUSTIFICATION</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>INDENT ID</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>RAILWAY</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DATE OF INDENT</label>
-                        <div class="col-sm-9">
-                            <input type="date" class="form-control" id="fname">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>ITEM SENT</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>BALANCE TO BE PROCURRED</label>
                         <div class="col-sm-9">
                             <input type="number" class="form-control" id="fname">
                         </div>
@@ -64,29 +28,39 @@
                             <input type="number" class="form-control" id="fname">
                         </div>
 
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>QUANTITY REQUIRED</label>
+                        <div class="col-sm-9">
+                            <input type="number" class="form-control" id="fname">
+                        </div>
+
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">TOTAL COST</label>
                         <div class="col-sm-9">
                             <input type="number" class="form-control" id="fname">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DATE OF RECIEPT	</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>LAST PO NO.</label>
                         <div class="col-sm-9">
-                            <input type="date" class="form-control" id="fname" placeholder="Select date of receipt">
+                            <input type="text" class="form-control" id="fname">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BATCH NO.</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DATE OF LAST PO</label>
+                        <div class="col-sm-9">
+                            <input type="date" class="form-control" id="fname">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">ANNUAL INDENT NO.</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname" placeholder="Enter Annual indent number here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">INDENT ID</label>
+                        <div class="col-sm-9">
+                            <input type="date" class="form-control" id="fname" placeholder="Enter indent id here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">JUSTIFICATION</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="fname" placeholder="Enter batch no. here">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MANUFACTURE DATE</label>
-                        <div class="col-sm-9">
-                            <input type="date" class="form-control" id="fname" placeholder="Select manufacturer date here">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">EXPIRY DATE</label>
-                        <div class="col-sm-9">
-                            <input type="date" class="form-control" id="fname" placeholder="Select expiry date here">
                         </div>
 
                       </div>

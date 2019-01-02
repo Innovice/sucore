@@ -8,28 +8,12 @@
                     <h4 class="card-title">Receipt of Items of Inter / Intra Railway</h4>
                     <div class="form-group row">
 
-                        <!--
-
-
-
-
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">PO NUMBER</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">NAME OF PARTY</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname">
-                        </div>-->
-
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MEDICINE DESCRIPTION</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="fname">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>QUANTITY QUANTITY</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>QUANTITY REQUIRED</label>
                         <div class="col-sm-9">
                             <input type="number" class="form-control" id="fname">
                         </div>

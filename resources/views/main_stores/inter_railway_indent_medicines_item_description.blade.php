@@ -7,7 +7,7 @@
                 <div class="card-body">
                     <h4 class="card-title">Create Indent</h4>
                     <div class="form-group row">
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">INDENT NUMBER</label>
+                        <!--<label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">INDENT NUMBER</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="fname" placeholder="Enter Indent number here">
                         </div>
@@ -22,6 +22,7 @@
                             <input type="text" class="form-control" id="fname" placeholder="Enter division name here">
                         </div>
 
+
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">RAILWAY</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="fname" placeholder="Enter Inter / Intra Railway name here">
@@ -30,7 +31,58 @@
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">DATE</label>
                         <div class="col-sm-9">
                             <input type="date" min="1990" max="2100" class="form-control" id="fname" placeholder="Select Year">
+                        </div>-->
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">MEDICINE DESCRIPTION</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname" placeholder="Type medicine description here">
                         </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">QUANTITY REQUIRED</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname" placeholder="Enter required quantity here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">JUSTIFICATION</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname" placeholder="Type justification here">
+                        </div>
+
+                      <!--  <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">QUANTITY SENT</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname" placeholder="Enter received quantity here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">UNIT COST</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname" placeholder="Enter unit cost here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">TOTAL COST</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname" placeholder="Enter total cost here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">DATE OF RECIEPT</label>
+                        <div class="col-sm-9">
+                            <input type="date" class="form-control" id="fname" placeholder="Type medicine description here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">BATCH NO</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname" placeholder="Enter required quantity here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MANUFACTURE DATE</label>
+                        <div class="col-sm-9">
+                            <input type="date" class="form-control" id="fname" placeholder="Select manufacturer date here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">EXPIRY DATE</label>
+                        <div class="col-sm-9">
+                            <input type="date" class="form-control" id="fname" placeholder="Select expiry date here">
+                        </div>-->
+
                     </div>
 
                 </div>

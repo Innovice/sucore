@@ -45,7 +45,7 @@
                     </div>
                     <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">VALID_TO_DATE</label>
                     <div class="col-sm-9">
-                        <input type="date" class="form-control" id="fname" placeholder="Enter date">
+                        <input type="date" min="01-01-1990" max="31-12-2999" class="form-control" id="fname" placeholder="Enter date">
                     </div>
                     <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">STATUS</label>
                     <div class="col-sm-9">

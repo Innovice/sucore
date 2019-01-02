@@ -93,3 +93,6 @@ Route::get('/sub_store/opening_stock', function () {
 Route::get('/sub_store/receipt_of_items', function () {
     return view('sub_store.receipt_of_items');
 });
+Route::get('/sub_store/auto_indent_depleted_stock', function () {
+    return view('sub_store.auto_indent_depleted_stock');
+});

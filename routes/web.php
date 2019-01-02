@@ -96,3 +96,6 @@ Route::get('/sub_store/receipt_of_items', function () {
 Route::get('/sub_store/auto_indent_depleted_stock', function () {
     return view('sub_store.auto_indent_depleted_stock');
 });
+Route::get('/sub_store/indent_for_dispatch_items', function () {
+    return view('sub_store.indent_for_dispatch_items');
+});

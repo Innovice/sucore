@@ -68,6 +68,11 @@ Route::get('/main_stores/supply_of_items_inter_railways', function () {
 Route::get('/main_stores/receipt_of_items_railway', function () {
     return view('main_stores.receipt_of_items_railway');
 });
+
 Route::get('/main_stores/stocks_in_and_out_cdsco', function () {
     return view('main_stores.stocks_in_and_out_cdsco');
 });
+
+Route::get('/main_stores/auto_indent', function () {
+    return view('main_stores.auto_indent');
+})

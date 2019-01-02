@@ -37,7 +37,9 @@ Route::get('/main_stores/rate_contract_purchase_indent', function () {
 Route::get('/main_stores/supplementary_indent', function () {
     return view('main_stores.supplementary_indent');
 });
-
 Route::get('/main_stores/inter_railway_indent_medicines_item_description', function () {
     return view('main_stores.inter_railway_indent_medicines_item_description');
+});
+Route::get('/main_stores/supplementary_indent_item_desc', function () {
+    return view('main_stores.supplementary_indent_item_desc');
 });

@@ -5,19 +5,43 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                  <h4 class="card-title">Supplementary Indent</h4>
+                  <h4 class="card-title">Stock in and Stock out to CDSCO</h4>
                   <div class="form-group row">
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">SUPPLEMENTARY INDENT NUMBER</label>
-                    <div class="col-sm-9">
-                        <input type="number" class="form-control" id="fname" placeholder="Enter supplementary indent number">
-                    </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">SUPPLEMENTARY_INDENT_DESC</label>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">CDSCO DESCRIPTION</label>
                     <div class="col-sm-9">
                         <input type="text" class="form-control" id="fname" placeholder="Enter description">
                     </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">DATE</label>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">CDSCO REFERENCE ID</label>
                     <div class="col-sm-9">
-                        <input type="date" min="01-01-1990" max="31-12-2999" class="form-control" id="fname" placeholder="Enter date">
+                        <input type="text" class="form-control" id="fname" placeholder="Enter refernce id">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">CDSCO DATE</label>
+                    <div class="col-sm-9">
+                        <input type="date" class="form-control" id="fname" placeholder="Enter date">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">NAME OF DRUG</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="fname" placeholder="Enter Name of drug">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">QUANTITY SENT</label>
+                    <div class="col-sm-9">
+                        <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter quantity sent">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">BATCH NUMBER</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="fname" placeholder="Enter Batch number">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">EXPIRY DATE</label>
+                    <div class="col-sm-9">
+                        <input type="date" min="01-01-1990" max="31-12-2999" class="form-control" id="fname" placeholder="Enter expiry date">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">MANUFACTURE DATE</label>
+                    <div class="col-sm-9">
+                        <input type="date" min="01-01-1990" max="31-12-2999" class="form-control" id="fname" placeholder="Enter manufacture date">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">UNIT COST</label>
+                    <div class="col-sm-9">
+                        <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter unit cost">
                     </div>
                   </div>
                   <div class="border-top">

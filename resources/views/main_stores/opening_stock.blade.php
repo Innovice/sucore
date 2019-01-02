@@ -65,14 +65,24 @@
                             <input type="number" class="form-control" id="fname" placeholder="Type name here">
                         </div>
 
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">PREFFERED STOCK QUANTITY</label>
+                        <div class="col-sm-9">
+                            <input type="number" class="form-control" id="fname" placeholder="Type name here">
+                        </div>
+
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">STOCK IN HAND</label>
                         <div class="col-sm-9">
                             <input type="number" class="form-control" id="fname" placeholder="Type name here">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BATCH NO</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BATCH NO.</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="fname" placeholder="Type name here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MANUFACTURE DATE</label>
+                        <div class="col-sm-9">
+                            <input type="date" class="form-control" id="fname" placeholder="Type name here">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">EXPIRY DATE</label>
@@ -80,10 +90,6 @@
                             <input type="date" class="form-control" id="fname" placeholder="Type name here">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MANUFACTURE DATE</label>
-                        <div class="col-sm-9">
-                            <input type="date" class="form-control" id="fname" placeholder="Type name here">
-                        </div>
                     </div>
 
                 </div>

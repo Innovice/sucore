@@ -42,52 +42,52 @@
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DOSAGES</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="text" class="form-control" id="fname" placeholder="Type Dosages here">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">UNITS</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="text" class="form-control" id="fname" placeholder="Type Units here">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">COUNT PER UNIT</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="number" class="form-control" id="fname" placeholder="Type Count per Unit here">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BOX COUNT</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="number" class="form-control" id="fname" placeholder="Type box count here">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MINIMUM STOCK QUANTITY</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="number" class="form-control" id="fname" placeholder="Type minimum stock quantity here">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">PREFERRED STOCK QUANTITY</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="number" class="form-control" id="fname" placeholder="Type preffered / maximum stock quantity here">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">STOCK IN HAND</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="number" class="form-control" id="fname" placeholder="Type stock in hand here">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BATCH NO.</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="text" class="form-control" id="fname" placeholder="Type Batch number here">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MANUFACTURE DATE</label>
                         <div class="col-sm-9">
-                            <input type="date" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="date" class="form-control" id="fname" placeholder="Select manufacturer date here">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">EXPIRY DATE</label>
                         <div class="col-sm-9">
-                            <input type="date" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="date" class="form-control" id="fname" placeholder="Select expiry date here">
                         </div>
 
                     </div>

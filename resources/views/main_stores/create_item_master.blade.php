@@ -42,27 +42,27 @@
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DOSAGES</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="text" class="form-control" id="fname" placeholder="Type Dosages here">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">UNITS</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="text" class="form-control" id="fname" placeholder="Type units here">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">COUNT PER UNIT</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="number" class="form-control" id="fname" placeholder="Type count per unit here">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BOX COUNT</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="number" class="form-control" id="fname" placeholder="Type box count here">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label">MINIMUM STOCK QUANTITY</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type name here">
+                            <input type="number" class="form-control" id="fname" placeholder="Type minimum stick quantity here">
                         </div>
                     </div>
 

@@ -36,32 +36,32 @@
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DOSAGES</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Enter Dosages">
+                            <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter Dosages">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">UNITS</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Type Units">
+                            <input type="number" step="0.01" class="form-control" id="fname" placeholder="Type Units">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">COUNT PER UNIT</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type Count per Unit">
+                            <input type="number" step="0.01" class="form-control" id="fname" placeholder="Type Count per Unit">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BOX COUNT</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type box count">
+                            <input type="number" step="0.01" class="form-control" id="fname" placeholder="Type box count">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MINIMUM STOCK QUANTITY</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type minimum stock quantity">
+                            <input type="number" step="0.01" class="form-control" id="fname" placeholder="Type minimum stock quantity">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">STOCK IN HAND</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type stock in hand here">
+                            <input type="number" step="0.01" class="form-control" id="fname" placeholder="Type stock in hand here">
                         </div>
 
                     </div>

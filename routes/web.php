@@ -1,5 +1,5 @@
 <?php
-
+/*--MASTER--*/
 Route::get('/masters/create_item_type_master', function () {
     return view('masters.create_item_type_master');
 });
@@ -10,6 +10,8 @@ Route::get('/masters/create_item_master', function () {
     return view('masters.create_item_master');
 });
 
+
+/*--MAIN STORE--*/
 Route::get('/main_stores/opening_stock', function () {
     return view('main_stores.opening_stock');
 });
@@ -136,4 +138,15 @@ Route::get('/dispensary/stock_out_patient_item_desc', function () {
 });
 Route::get('/dispensary/receipt_of_items_desc_local_purchase', function () {
     return view('dispensary.receipt_of_items_desc_local_purchase');
+});
+
+/*--NON-MEDICAL STORE--*/
+Route::get('/non-medical_store/annual_indent', function () {
+    return view('non-medical_store.annual_indent');
+});
+Route::get('/non-medical_store/annual_indent_item_desc', function () {
+    return view('non-medical_store.annual_indent_item_desc');
+});
+Route::get('/non-medical_store/opening_stock', function () {
+    return view('non-medical_store.opening_stock');
 });

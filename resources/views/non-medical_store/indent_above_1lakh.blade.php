@@ -5,7 +5,7 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                    <h4 class="card-title">Item section for Annual Indent</h4>
+                    <h4 class="card-title">Indent Above 1 Lakh</h4>
                     <div class="form-group row">
                       <label for="fname" class="col-sm-3 text-right control-label col-form-label">SELECT THE INDENT NUMBER</label>
                       <div class="col-sm-9" style="margin-bottom: 4px;">
@@ -84,6 +84,7 @@
                       <div class="col-sm-9">
                           <input type="text" class="form-control" id="nms_type" placeholder="Enter item type" name="nms_type">
                       </div>
+                    </div>
                 </div>
                 <div class="border-top">
                     <div class="card-body">

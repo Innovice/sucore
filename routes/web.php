@@ -158,3 +158,6 @@ Route::get('/non-medical_store/annual_indent_item_desc', function () {
 Route::get('/non-medical_store/opening_stock', function () {
     return view('non-medical_store.opening_stock');
 });
+Route::get('/non-medical_store/indent_above_1lakh', function () {
+    return view('non-medical_store.indent_above_1lakh');
+});

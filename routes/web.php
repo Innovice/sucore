@@ -134,3 +134,6 @@ Route::get('/dispensary/stock_out_patient', function () {
 Route::get('/dispensary/stock_out_patient_item_desc', function () {
     return view('dispensary.stock_out_patient_item_desc');
 });
+Route::get('/dispensary/receipt_of_items_desc_local_purchase', function () {
+    return view('dispensary.receipt_of_items_desc_local_purchase');
+});

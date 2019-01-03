@@ -131,3 +131,6 @@ Route::get('/dispensary/auto_indent_depleted_stock', function () {
 Route::get('/dispensary/stock_out_patient', function () {
     return view('dispensary.stock_out_patient');
 });
+Route::get('/dispensary/stock_out_patient_item_desc', function () {
+    return view('dispensary.stock_out_patient_item_desc');
+});

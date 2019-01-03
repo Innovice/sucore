@@ -15,57 +15,57 @@
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">NAME OF THE MEDICINE</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="desc" name="relation">
+                            <input type="text" class="form-control" id="medicname" name="dispensary_medc_name">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MEDICINE ITEM SUB TYPE</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="rcptdate" name="receipt_date">
+                            <input type="text" class="form-control" id="medicsubtype" name="dispensary_medc_subtype">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MEDICINE ITEM TYPE</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="patientname" name="dispensary_patientname">
+                            <input type="text" class="form-control" id="medictype" name="dispensary_medc_type">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">QUANTITY</label>
                         <div class="col-sm-9">
-                            <input type="number" step="0.01" class="form-control" id="mobileno" name="patient_mobileno">
+                            <input type="number" step="0.01" class="form-control" id="medicqty" name="dispensary_medc_qty">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">APPROX UNIT COST</label>
                         <div class="col-sm-9">
-                            <input type="number" step="0.01" class="form-control" id="age" name="patient_age">
+                            <input type="number" step="0.01" class="form-control" id="medicunitcost" name="medc_unitcost_appx">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">APPROX TOTAL COST</label>
                         <div class="col-sm-9">
-                            <input type="number" step="0.01" class="form-control" id="sex" name="patient_sex">
+                            <input type="number" step="0.01" class="form-control" id="medictotalcost" name="medc_totalcost_appx">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">RECEIVED QTY</label>
                         <div class="col-sm-9">
-                            <input type="number" step="0.01" class="form-control" id="designation" name="patient_designation">
+                            <input type="number" step="0.01" class="form-control" id="receivedqty" placeholder="Enter received quantity here" name="dispensary_medc_received">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">ACTUAL UNIT COST</label>
                         <div class="col-sm-9">
-                            <input type="number" step="0.01" class="form-control" id="department" name="patient_department">
+                            <input type="number" step="0.01" class="form-control" id="unitcost" placeholder="Enter actual unit cost here" name="medc_unitcost">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">ACTUAL TOTAL COST</label>
                         <div class="col-sm-9">
-                            <input type="number" step="0.01" class="form-control" id="station" name="station">
+                            <input type="number" step="0.01" class="form-control" id="totalcost" name="medc_totalcost">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BILL NUMBER</label>
                         <div class="col-sm-9">
-                          <input type="text" class="form-control" id="cmino" name="patient_cmi_no">
+                          <input type="text" class="form-control" id="billno" placeholder="Enter bill number here" name="medc_billno">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BILL DATE</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="relhscard" name="relhs_card_no">
+                            <input type="date" class="form-control" id="billdate" name="medc_billdate">
                         </div>
 
                 </div>

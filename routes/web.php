@@ -128,3 +128,6 @@ Route::get('/dispensary/receipt_of_items_ft_local_purchase', function () {
 Route::get('/dispensary/auto_indent_depleted_stock', function () {
     return view('dispensary.auto_indent_depleted_stock');
 });
+Route::get('/dispensary/stock_out_patient', function () {
+    return view('dispensary.stock_out_patient');
+});

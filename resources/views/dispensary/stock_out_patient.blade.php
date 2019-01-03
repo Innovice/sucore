@@ -9,7 +9,7 @@
                     <div class="form-group row">
                     <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">CMI NO</label>
                     <div class="col-sm-9">
-                        <input type="text" class="form-control" id="dispensary_cmino" placeholder="Enter CMI number" name="dispensary_cmino">
+                        <input type="number" class="form-control" id="dispensary_cmino" placeholder="Enter CMI number" name="dispensary_cmino">
                     </div>
                     <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ADVISING DOCTOR</label>
                     <div class="col-sm-9">
@@ -36,7 +36,7 @@
 
                     <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ADDRESS</label>
                     <div class="col-sm-9">
-                        <input type="text" class="form-control" id="dispensary_address" placeholder="Enter total estimated cost" name="dispensary_address">
+                        <input type="text" class="form-control" id="dispensary_address" placeholder="Enter Address" name="dispensary_address">
                     </div>
                     <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">PHONE NUMBER 1</label>
                     <div class="col-sm-9">
@@ -54,9 +54,6 @@
                     <div class="col-sm-9">
                         <input type="text" class="form-control" id="dispensary_visitid" name="dispensary_visitid">
                     </div>
-
-                    </div>
-
                 </div>
                 <div class="border-top">
                     <div class="card-body">

@@ -17,7 +17,7 @@
                         </div>
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">YEAR</label>
                         <div class="col-sm-9">
-                            <input type="number" min="1990" max="2100" class="form-control" id="nms_year" name="nms_year"placeholder="Select Year">
+                            <input type="number" min="1990" max="2100" class="form-control" id="nms_year" name="nms_year" placeholder="Select Year">
                         </div>
                     </div>
 

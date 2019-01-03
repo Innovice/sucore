@@ -66,7 +66,7 @@
                   </div>
                   <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">BALANCE STOCK AS ON 1ST NOV/ 1ST DEC</label>
                   <div class="col-sm-9">
-                      <input type="number" step="0.01" class="form-control" id="nms_bal" placeholder="balance stock as on 1st nov/1st dec" name="nms_bal">
+                      <input type="number" step="0.01" class="form-control" id="nms_bal" placeholder="Enter balance stock as on 1st nov/1st dec" name="nms_bal">
                   </div>
                   <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">FUTURE EXPECTATION SUPPLY</label>
                   <div class="col-sm-9">

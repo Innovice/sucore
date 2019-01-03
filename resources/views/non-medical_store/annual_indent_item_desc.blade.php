@@ -18,15 +18,19 @@
                       </div>
                       <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">CODE OF THE ITEM</label>
                       <div class="col-sm-9">
-                          <input type="text" class="form-control" id="fname" placeholder="Enter code of item">
+                          <input type="text" class="form-control" id="nms_itemcode" placeholder="Enter code of item" name="nms_itemcode">
                       </div>
-                      <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">SPCIFICATION</label>
+                      <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">NAME OF THE ITEM</label>
                       <div class="col-sm-9">
-                          <input type="text" class="form-control" id="fname" placeholder="Enter specification of medicine">
+                          <input type="text" class="form-control" id="nms_itemname" placeholder="Enter name of item" name="nms_itemname">
+                      </div>
+                      <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">SPECIFICATION</label>
+                      <div class="col-sm-9">
+                          <input type="text" class="form-control" id="nms_specification" placeholder="Enter specification of medicine" name="nms_specification">
                       </div>
                       <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">PACKAGE IN UNIT</label>
                       <div class="col-sm-9">
-                          <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter package per unit">
+                          <input type="number" step="0.01" class="form-control" id="nms_unitpack" placeholder="Enter package per unit" name="nms_unitpack">
                       </div>
                       <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">V/E/D(VITAL/ESSENTIAL/DESIRED)</label>
                       <div class="col-sm-9" style="margin-bottom: 4px;">
@@ -38,55 +42,55 @@
                       </div>
                     <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">UNIT COST PER ITEM</label>
                     <div class="col-sm-9">
-                        <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter cost per item">
+                        <input type="number" step="0.01" class="form-control" id="nms_unitcost" placeholder="Enter cost per item" name="nms_unitcost">
                     </div>
                   <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">QUANTITY PER UNIT</label>
                   <div class="col-sm-9">
-                      <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter quantity per unit">
+                      <input type="number" step="0.01" class="form-control" id="nms_unitqty" placeholder="Enter quantity per unit" name="nms_unitqty">
                   </div>
                   <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">QUANTITY CONSUMED LAST YEAR</label>
                   <div class="col-sm-9">
-                      <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter quantity consumed last year">
+                      <input type="number" step="0.01" class="form-control" id="nms_conslastyear" placeholder="Enter quantity consumed last year" name="nms_conslastyear">
                   </div>
                   <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">MONTHLY CONSUMED AVERAGE</label>
                   <div class="col-sm-9">
-                      <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter monthly consumption">
+                      <input type="number" step="0.01" class="form-control" id="nms_monthcons" placeholder="Enter monthly consumption" name="nms_monthcons">
                   </div>
                   <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">CORRECTED MONTHLY CONSUMPTION</label>
                   <div class="col-sm-9">
-                      <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter corrected monthly consumption">
+                      <input type="number" step="0.01" class="form-control" id="nms_corrcons" placeholder="Enter corrected monthly consumption" name="nms_corrcons">
                   </div>
                   <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">QUANTITY REQUIRED FOR 12 MONTHS</label>
                   <div class="col-sm-9">
-                      <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter quantity required for 12 months">
+                      <input type="number" step="0.01" class="form-control" id="nms_monthreq" placeholder="Enter quantity required for 12 months" name="nms_monthreq">
                   </div>
                   <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">BALANCE STOCK AS ON 1ST NOV/ 1ST DEC</label>
                   <div class="col-sm-9">
-                      <input type="number" step="0.01" class="form-control" id="fname" placeholder="balance stock as on 1st nov/1st dec">
+                      <input type="number" step="0.01" class="form-control" id="nms_bal" placeholder="balance stock as on 1st nov/1st dec" name="nms_bal">
                   </div>
                   <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">FUTURE EXPECTATION SUPPLY</label>
                   <div class="col-sm-9">
-                      <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter future expected supply">
+                      <input type="number" step="0.01" class="form-control" id="nms_futuresup" placeholder="Enter future expected supply" name="nms_futuresup">
                   </div>
                   <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">NET QUANTITY REQUIRED</label>
                   <div class="col-sm-9">
-                      <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter net quantity required">
+                      <input type="number" step="0.01" class="form-control" id="nms_netqtyreq" placeholder="Enter net quantity required" name="nms_netqtyreq">
                   </div>
                   <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">TOTAL ESTIMATION COST</label>
                   <div class="col-sm-9">
-                      <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter total estimated cost">
+                      <input type="number" step="0.01" class="form-control" id="nms_estcost" placeholder="Enter total estimated cost" name="nms_estcost">
                   </div>
                   <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">TOTAL ESTIMATION COST</label>
                   <div class="col-sm-9">
-                      <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter total estimated cost">
+                      <input type="number" step="0.01" class="form-control" id="nms_totcost" placeholder="Enter total estimated cost" name="nms_totcost">
                   </div>
                   <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">TOTAL QTY SANCTIONED</label>
                   <div class="col-sm-9">
-                      <input type="number" step="0.01" class="form-control" id="fname" placeholder="Enter total quantity sanctioned">
+                      <input type="number" step="0.01" class="form-control" id="nms_sanctionqty" placeholder="Enter total quantity sanctioned" name="nms_sanctionqty">
                   </div>
                   <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ITEM TYPE</label>
                   <div class="col-sm-9">
-                      <input type="text" class="form-control" id="fname" placeholder="Enter item type">
+                      <input type="text" class="form-control" id="nms_type" placeholder="Enter item type" name="nms_type">
                   </div>
                 </div>
                 <div class="border-top">

@@ -113,3 +113,6 @@ Route::get('/dispensary/opening_stock', function () {
 Route::get('/dispensary/create_weekly_indent', function () {
     return view('dispensary.create_weekly_indent');
 });
+Route::get('/dispensary/indent_of_item_local_purchase', function () {
+    return view('dispensary.indent_of_item_local_purchase');
+});

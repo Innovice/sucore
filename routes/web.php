@@ -116,3 +116,6 @@ Route::get('/dispensary/create_weekly_indent', function () {
 Route::get('/dispensary/indent_of_item_local_purchase', function () {
     return view('dispensary.indent_of_item_local_purchase');
 });
+Route::get('/dispensary/create_weekly_indent_item_description', function () {
+    return view('dispensary.create_weekly_indent_item_description');
+});

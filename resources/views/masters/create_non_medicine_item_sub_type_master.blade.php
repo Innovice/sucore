@@ -8,7 +8,7 @@
                     <h4 class="card-title">Create Medicine Item Sub Type Master</h4>
                     <div class="form-group row">
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label">ITEM TYPE NAME</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ITEM TYPE NAME</label>
                         <div class="col-sm-9" style="margin-bottom: 4px;">
                           <select class="form-control" id="sel1" name="nms_item_name">
                             <option value="1">1</option>

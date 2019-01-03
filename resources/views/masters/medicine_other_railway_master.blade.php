@@ -5,23 +5,21 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                    <h4 class="card-title">Create Medicine Item Sub Type Master</h4>
+                    <h4 class="card-title">Create Medicine Item Type Master</h4>
                     <div class="form-group row">
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ITEM SUB TYPE NAME</label>
-                        <div class="col-sm-9" style="margin-bottom: 4px;">
-                            <input type="text" class="form-control" id="fname" placeholder="Type subtype name here">
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">NAME OF DIVISION</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname" placeholder="Type name of division here" name="other_railway_division">
                         </div>
 
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">RAILWAY</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname" placeholder="Type name here" name="other_railway_name">
+                        </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label">ITEM TYPE NAME</label>
-                        <div class="col-sm-9" style="margin-bottom: 4px;">
-                          <select class="form-control">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="mercedes">Mercedes</option>
-                            <option value="audi">Audi</option>
-                          </select>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label">ADDRESSING OFFICER</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname" placeholder="Type name of addressing officer here" name="other_railway_officer">
                         </div>
                     </div>
 
@@ -33,7 +31,11 @@
                 </div>
             </form>
         </div>
+
+
+
     </div>
+
 </div>
 <div class="card">
     <div class="card-body">

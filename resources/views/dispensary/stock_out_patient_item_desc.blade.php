@@ -5,51 +5,8 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                    <h4 class="card-title">Stock Out (Patient)</h4>
+                    <h4 class="card-title">Stock Out Item Description</h4>
                     <div class="form-group row">
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">CMI NO</label>
-                    <div class="col-sm-9">
-                        <input type="number" class="form-control" id="dispensary_cmino" placeholder="Enter CMI number" name="dispensary_cmino">
-                    </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ADVISING DOCTOR</label>
-                    <div class="col-sm-9">
-                        <input type="text" class="form-control" id="dispensary_advisingdoc" placeholder="Enter Advising doctor" name="dispensary_advisingdoc">
-                    </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">NAME OF PATIENT</label>
-                    <div class="col-sm-9">
-                        <input type="text" class="form-control" id="dispensary_patientname" placeholder="Enter name of patient" name="dispensary_patientname">
-                    </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">EMPLOYEE PF NUMBER</label>
-                    <div class="col-sm-9">
-                        <input type="number" class="form-control" id="dispensary_pfno" name="dispensary_pfno">
-                    </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">RELATION TO EMPLOYEE</label>
-                    <div class="col-sm-9">
-                        <input type="text" class="form-control" id="dispensary_relation" name="dispensary_relation">
-                    </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">DATE OF BIRTH</label>
-                    <div class="col-sm-9">
-                        <input type="date" class="form-control" id="dispensary_dob" name="dispensary_dob">
-                    </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">SEX</label>
-                    <div class="col-sm-9">
-                      <select class="form-control" id="gen">
-                        <option>MALE</option>
-                        <option>FEMALE</option>
-                      </select>
-                    </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ADDRESS</label>
-                    <div class="col-sm-9">
-                        <input type="text" class="form-control" id="dispensary_address" placeholder="Enter Address" name="dispensary_address">
-                    </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">PHONE NUMBER 1</label>
-                    <div class="col-sm-9">
-                        <input type="number" class="form-control" id="dispensary_phno1" name="dispensary_phno1">
-                    </div>
-                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">PHONE NUMBER 2</label>
-                    <div class="col-sm-9">
-                        <input type="number" class="form-control" id="dispensary_phno2" name="dispensary_phno2">
-                    </div>
                     <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">OPD ID</label>
                     <div class="col-sm-9">
                         <input type="text" class="form-control" id="dispensary_opdid" name="dispensary_opdid">
@@ -57,6 +14,38 @@
                     <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">VISIT ID</label>
                     <div class="col-sm-9">
                         <input type="text" class="form-control" id="dispensary_visitid" name="dispensary_visitid">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">NAME OF MEDICINE</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="dispensary_medname" placeholder="Enter name of Medicine" name="dispensary_medname">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">DOSAGE</label>
+                    <div class="col-sm-9">
+                        <input type="number" step="0.01" class="form-control" id="dispensary_dosage" name="dispensary_dosage">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">TIMES</label>
+                    <div class="col-sm-9">
+                        <input type="number" class="form-control" id="dispensary_times" name="dispensary_times">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">DAYS</label>
+                    <div class="col-sm-9">
+                        <input type="number" class="form-control" id="dispensary_days" name="dispensary_days">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">TOTAL QUANTITY</label>
+                    <div class="col-sm-9">
+                        <input type="number" class="form-control" id="dispensary_totqty" name="dispensary_totqty">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">BATCH NUMBER</label>
+                    <div class="col-sm-9">
+                        <input type="text" min="1990" max="2100" class="form-control" id="dispensary_batchno" placeholder="Enter Batch number" name="dispensary_batchno">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">TOTAL QUANTITY DISPATCHED</label>
+                    <div class="col-sm-9">
+                        <input type="number" class="form-control" id="dispensary_totqtydispatch" name="dispensary_totqtydispatch" placeholder="Enter total quantity dispatched">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">EXPIRY DATE</label>
+                    <div class="col-sm-9">
+                        <input type="date" class="form-control" id="dispensary_exdate" name="dispensary_exdate">
                     </div>
                 </div>
                 <div class="border-top">

@@ -107,6 +107,6 @@ Route::get('/sub_store/indent_for_supply_to_inter_rail', function () {
 
 
 /*--DISPENSARY--*/
-Route::get('/dispendary/opening_stock', function () {
-    return view('dispendary.opening_stock');
+Route::get('/dispensary/opening_stock', function () {
+    return view('dispensary.opening_stock');
 });

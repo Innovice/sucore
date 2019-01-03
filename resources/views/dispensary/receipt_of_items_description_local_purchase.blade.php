@@ -5,46 +5,72 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                    <h4 class="card-title">Auto Indent for Depleting Stock</h4>
+                    <h4 class="card-title">Receipt of Items from Local Purchase </h4>
                     <div class="form-group row">
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">REQUISITION ID</label>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">LOCAL PURCHASE ID</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Enter Requisition ID">
+                            <input type="text" class="form-control" id="localpurchaseid" name="dispensary_localpurchaseid">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MEDICINE DESCRIPTION</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">EMPLOYEE/DEPENDENT/RELHS</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Enter Medicine description">
+                            <input type="text" class="form-control" id="desc" name="relation">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>QUANTITY REQUIRED</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DATE</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname">
+                            <input type="date" class="form-control" id="rcptdate" name="receipt_date">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>BALANCE IN HAND</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">NAME OF PATIENT</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname">
+                            <input type="text" class="form-control" id="patientname" name="dispensary_patientname">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">LAST SUPPLIED QUANTITY</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MOBILE NUMER</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname">
+                            <input type="number" class="form-control" id="mobileno" name="patient_mobileno">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>LAST SUPPLY REQ NUMBER</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">AGE</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname">
+                            <input type="number" class="form-control" id="age" name="patient_age">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DATE OF LAST REQUISITION</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">SEX</label>
                         <div class="col-sm-9">
-                            <input type="date" class="form-control" id="fname">
+                            <input type="text" class="form-control" id="sex" name="patient_sex">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DATE OF REQUISITION</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DESIGNATION</label>
                         <div class="col-sm-9">
-                            <input type="date" class="form-control" id="fname">
+                            <input type="text" class="form-control" id="designation" name="patient_designation">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DEPARTMENT</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="department" name="patient_department">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">STATION</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="station" name="station">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">CMI NUMBER</label>
+                        <div class="col-sm-9">
+                          <input type="text" class="form-control" id="cmino" name="patient_cmi_no">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">RELHS CARD NUMBER</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="relhscard" name="relhs_card_no">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DIAGNOSIS</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="diagonsis" name="patient_diagonsis">
                         </div>
 
                       </div>

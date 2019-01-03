@@ -9,7 +9,9 @@ Route::get('/masters/create_item_sub_type_master', function () {
 Route::get('/masters/create_item_master', function () {
     return view('masters.create_item_master');
 });
-
+Route::get('/masters/create_item_master', function () {
+    return view('masters.create_non_medicine_item_master');
+});
 
 /*--MAIN STORE--*/
 Route::get('/main_stores/opening_stock', function () {

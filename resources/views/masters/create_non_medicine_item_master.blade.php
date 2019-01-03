@@ -5,59 +5,59 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                    <h4 class="card-title">Create Medicine Item Master</h4>
+                    <h4 class="card-title">Create Non-Medicine Item Master</h4>
                     <div class="form-group row">
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">ITEM SUB TYPE NAME</label>
-                        <div class="col-sm-9">
-                          <select class="form-control" id="sel1">
-                          <option>Select sub type from here</option>
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                        </select>
-                        </div>
+                      <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">ITEM SUB TYPE NAME</label>
+                      <div class="col-sm-9">
+                        <select class="form-control" id="sel1" name="nms_item_sub_type">
+                        <option>Select sub type from here</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                      </select>
+                      </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">ITEM TYPE NAME</label>
-                        <div class="col-sm-9">
-                          <select class="form-control" id="sel1">
-                          <option>Select item type from here</option>
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                        </select>
-                        </div>
+                      <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">ITEM TYPE NAME</label>
+                      <div class="col-sm-9">
+                        <select class="form-control" id="sel1" name="nms_item_type">
+                        <option>Select item type from here</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                      </select>
+                      </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">ITEM NAME</label>
-                        <div class="col-sm-9">
-                          <input type="text" class="form-control" id="itemname" placeholder="Type Item name here">
-                        </div>
+                      <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">ITEM NAME</label>
+                      <div class="col-sm-9">
+                        <input type="text" class="form-control" id="itemname" placeholder="Type Item name here" name="nms_item_name">
+                      </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DOSAGES</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="dosages" placeholder="Type Dosages here">
-                        </div>
+                      <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">UNITS</label>
+                      <div class="col-sm-9">
+                          <input type="text" class="form-control" id="units" placeholder="Type units here" name="nms_item_unit">
+                      </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">UNITS</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="units" placeholder="Type units here">
-                        </div>
+                      <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">COUNT PER UNIT</label>
+                      <div class="col-sm-9">
+                          <input type="number" class="form-control" id="countperunit" placeholder="Type count per unit here" name="nms_item_countperunit">
+                      </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">COUNT PER UNIT</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="countperunit" placeholder="Type count per unit here">
-                        </div>
+                      <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BOX COUNT</label>
+                      <div class="col-sm-9">
+                          <input type="number" class="form-control" id="boxcount" placeholder="Type box count here" name="nms_item_boxcount">
+                      </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BOX COUNT</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="boxcount" placeholder="Type box count here">
-                        </div>
+                      <label for="fname" class="col-sm-3 text-right control-label col-form-label">MINIMUM STOCK QUANTITY</label>
+                      <div class="col-sm-9">
+                          <input type="number" class="form-control" id="minstock" placeholder="Type minimum stock quantity here" name="nms_item_minstock">
+                      </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label">MINIMUM STOCK QUANTITY</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="minstock" placeholder="Type minimum stock quantity here">
-                        </div>
+                      <label for="fname" class="col-sm-3 text-right control-label col-form-label">STOCK TYPE</label>
+                      <div class="col-sm-9">
+                          <input type="number" class="form-control" id="minstock" placeholder="Type stock category here" name="nms_item_stocktype">
+                      </div>
                     </div>
 
                 </div>

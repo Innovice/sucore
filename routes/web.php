@@ -102,3 +102,11 @@ Route::get('/sub_store/indent_for_dispatch_items', function () {
 Route::get('/sub_store/indent_for_supply_to_inter_rail', function () {
     return view('sub_store.indent_for_supply_to_inter_rail');
 });
+
+
+
+
+/*--DISPENSARY--*/
+Route::get('/dispendary/opening_stock', function () {
+    return view('dispendary.opening_stock');
+});

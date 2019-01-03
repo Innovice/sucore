@@ -7,87 +7,61 @@
                 <div class="card-body">
                     <h4 class="card-title">Opening Stock</h4>
                     <div class="form-group row">
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">ITEM SUB TYPE NAME</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MEDICINE ITEM SUB TYPE</label>
                         <div class="col-sm-9">
-                          <select class="form-control" id="sel1">
-                          <option>Select sub type from here</option>
+                        <select class="form-control" id="sel1">
                           <option>1</option>
                           <option>2</option>
                           <option>3</option>
-                          <option>4</option>
                         </select>
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">ITEM TYPE NAME</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MEDICINE ITEM TYPE</label>
                         <div class="col-sm-9">
-                          <select class="form-control" id="sel1">
-                          <option>Select item type from here</option>
+                        <select class="form-control" id="sel1">
                           <option>1</option>
                           <option>2</option>
                           <option>3</option>
-                          <option>4</option>
                         </select>
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">ITEM NAME</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MEDICINE ITEM NAME</label>
                         <div class="col-sm-9">
-                          <select class="form-control" id="sel1">
-                          <option>Select item name from here</option>
+                        <select class="form-control" id="sel1">
                           <option>1</option>
                           <option>2</option>
                           <option>3</option>
-                          <option>4</option>
                         </select>
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DOSAGES</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Type Dosages here">
+                            <input type="text" class="form-control" id="fname" placeholder="Enter Dosages">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">UNITS</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Type Units here">
+                            <input type="text" class="form-control" id="fname" placeholder="Type Units">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">COUNT PER UNIT</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type Count per Unit here">
+                            <input type="number" class="form-control" id="fname" placeholder="Type Count per Unit">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BOX COUNT</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type box count here">
+                            <input type="number" class="form-control" id="fname" placeholder="Type box count">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MINIMUM STOCK QUANTITY</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type minimum stock quantity here">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">PREFERRED STOCK QUANTITY</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Type preffered / maximum stock quantity here">
+                            <input type="number" class="form-control" id="fname" placeholder="Type minimum stock quantity">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">STOCK IN HAND</label>
                         <div class="col-sm-9">
                             <input type="number" class="form-control" id="fname" placeholder="Type stock in hand here">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BATCH NO.</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Type Batch number here">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MANUFACTURE DATE</label>
-                        <div class="col-sm-9">
-                            <input type="date" class="form-control" id="fname" placeholder="Select manufacturer date here">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">EXPIRY DATE</label>
-                        <div class="col-sm-9">
-                            <input type="date" class="form-control" id="fname" placeholder="Select expiry date here">
                         </div>
 
                     </div>
@@ -100,8 +74,6 @@
                 </div>
             </form>
         </div>
-
-
 
     </div>
 

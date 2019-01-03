@@ -4,7 +4,7 @@ Route::get('/masters/create_item_type_master', function () {
     return view('masters.create_item_type_master');
 });
 Route::get('/masters/create_item_sub_type_master', function () {
-    return view('main_stores.create_item_sub_type_master');
+    return view('masters.create_item_sub_type_master');
 });
 Route::get('/masters/create_item_master', function () {
     return view('masters.create_item_master');
@@ -109,4 +109,7 @@ Route::get('/sub_store/indent_for_supply_to_inter_rail', function () {
 /*--DISPENSARY--*/
 Route::get('/dispensary/opening_stock', function () {
     return view('dispensary.opening_stock');
+});
+Route::get('/dispensary/create_weekly_indent', function () {
+    return view('dispensary.create_weekly_indent');
 });

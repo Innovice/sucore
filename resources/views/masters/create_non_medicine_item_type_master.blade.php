@@ -5,7 +5,7 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                    <h4 class="card-title">Create Medicine Item Type Master</h4>
+                    <h4 class="card-title">Create Non-Medicine Item Type Master</h4>
                     <div class="form-group row">
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label">ITEM TYPE NAME</label>
                         <div class="col-sm-9">

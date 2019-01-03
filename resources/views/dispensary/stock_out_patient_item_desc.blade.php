@@ -13,7 +13,7 @@
                     </div>
                     <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">VISIT ID</label>
                     <div class="col-sm-9">
-                        <input type="text" class="form-control" id="dispensary_visitid" name="dispensary_visitid">
+                        <input type="number" class="form-control" id="dispensary_visitid" name="dispensary_visitid">
                     </div>
                     <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">NAME OF MEDICINE</label>
                     <div class="col-sm-9">

@@ -52,6 +52,26 @@
                             <input type="text" class="form-control" id="fname">
                         </div>
 
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">QUANTITY SUPPLIED</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname" placeholder="Type supplied quantity here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BATCH NUMBER</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="fname" placeholder="Type batch number here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MANUFACTURE DATE</label>
+                        <div class="col-sm-9">
+                            <input type="date" class="form-control" id="fname" placeholder="Select manufacturer date here">
+                        </div>
+
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">EXPIRY DATE</label>
+                        <div class="col-sm-9">
+                            <input type="date" class="form-control" id="fname" placeholder="Select expiry date here">
+                        </div>
+
                       </div>
 
                 </div>

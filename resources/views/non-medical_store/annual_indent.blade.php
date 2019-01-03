@@ -9,7 +9,7 @@
                     <div class="form-group row">
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ANNUAL_INDENT_NO</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="nms_indentno" name="nms_indentno" placeholder="Enter Indent number">
+                            <input type="number" class="form-control" id="nms_indentno" name="nms_indentno" placeholder="Enter Indent number">
                         </div>
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ANNUAL_INDENT_DESC</label>
                         <div class="col-sm-9">

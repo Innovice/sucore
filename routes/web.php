@@ -122,3 +122,6 @@ Route::get('/dispensary/create_weekly_indent_item_description', function () {
 Route::get('/dispensary/local_purchase_item_desc', function () {
     return view('dispensary.local_purchase_item_desc');
 });
+Route::get('/dispensary/receipt_of_items_ft_local_purchase', function () {
+    return view('dispensary.receipt_of_items_ft_local_purchase');
+});

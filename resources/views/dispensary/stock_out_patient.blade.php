@@ -5,65 +5,55 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                    <h4 class="card-title">Local Purchase</h4>
+                    <h4 class="card-title">Stock Out (Patient)</h4>
                     <div class="form-group row">
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">CMI NO</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="dispensary_cmino" placeholder="Enter CMI number" name="dispensary_cmino">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ADVISING DOCTOR</label>
+                    <div class="col-sm-9">
+                        <input type="text" min="1990" max="2100" class="form-control" id="dispensary_advisingdoc" placeholder="Enter Advising doctor" name="dispensary_advisingdoc">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">NAME OF PATIENT</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="dispensary_patientname" placeholder="Enter name of patient" name="dispensary_patientname">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">EMPLOYEE PF NUMBER</label>
+                    <div class="col-sm-9">
+                        <input type="number" class="form-control" id="dispensary_pfno" name="dispensary_pfno">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">RELATION TO EMPLOYEE</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="dispensary_relation" name="dispensary_relation">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">DATE OF BIRTH</label>
+                    <div class="col-sm-9">
+                        <input type="date" class="form-control" id="dispensary_dob" name="dispensary_dob">
+                    </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">EMPLOYEE/DEPENDENT/RELHS</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Enter the number">
-                        </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DATE</label>
-                        <div class="col-sm-9">
-                            <input type="date" class="form-control" id="fname" placeholder="Enter Date">
-                        </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">NAME OF PATIENT</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Type name of patient">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MOBILE NUMBER</label>
-                        <div class="col-sm-9">
-                            <input type="number" max="9999999999" class="form-control" id="fname" placeholder="Enter mobile number">
-                        </div>
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">AGE</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Enter age">
-                        </div>
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">SEX</label>
-                        <div class="col-sm-9">
-                          <select class="form-control" id="gen">
-                            <option>MALE</option>
-                            <option>FEMALE</option>
-                          </select>
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DESIGNATION</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Enter Designation">
-                        </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DEPARTMENT</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Enter Department">
-                        </div>
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">STATION</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Enter Station">
-                        </div>
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">CMI NUMBER</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Enter CMI number">
-                        </div>
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">RELHS CARD NUMBER</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname" placeholder="Enter RELHS card number">
-                        </div>
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DIAGNOSIS</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Enter diagnosis">
-                        </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ADDRESS</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="dispensary_address" placeholder="Enter total estimated cost" name="dispensary_address">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">PHONE NUMBER 1</label>
+                    <div class="col-sm-9">
+                        <input type="number" class="form-control" id="dispensary_phno1" name="dispensary_phno1">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">PHONE NUMBER 2</label>
+                    <div class="col-sm-9">
+                        <input type="number" class="form-control" id="dispensary_phno2" name="dispensary_phno2">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">OPD ID</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="dispensary_opdid" name="dispensary_opdid">
+                    </div>
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">VISIT ID</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="dispensary_visitid" name="dispensary_visitid">
+                    </div>
 
                     </div>
 
@@ -75,6 +65,8 @@
                 </div>
             </form>
         </div>
+
+
 
     </div>
 

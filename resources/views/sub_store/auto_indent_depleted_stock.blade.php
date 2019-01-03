@@ -9,42 +9,42 @@
                     <div class="form-group row">
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">REQUISITION ID</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Enter Requisition ID">
+                            <input type="text" class="form-control" id="reqid" placeholder="Enter Requisition ID" name="substore_reqid">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">MEDICINE DESCRIPTION</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname" placeholder="Enter Medicine description">
+                            <input type="text" class="form-control" id="medidesc" placeholder="Enter Medicine description" name="substore_medidesc">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>QUANTITY REQUIRED</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">QUANTITY REQUIRED</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname">
+                            <input type="number" class="form-control" id="qtyreqd" name="substore_reqd_qty">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>BALANCE IN HAND</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BALANCE IN HAND</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname">
+                            <input type="number" class="form-control" id="balance" name="substore_balance">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">LAST SUPPLIED QUANTITY</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="fname">
+                            <input type="number" class="form-control" id="suppqty" name="substore_lastsupp_qty">
                         </div>
 
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>LAST SUPPLY REQ NUMBER</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">LAST SUPPLY REQ NUMBER</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="fname">
+                            <input type="text" class="form-control" id="requno" name="substore_lastsupp_reqno">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DATE OF LAST REQUISITION</label>
                         <div class="col-sm-9">
-                            <input type="date" class="form-control" id="fname">
+                            <input type="date" class="form-control" id="lastreqdate" name="substore_lastreq_dt">
                         </div>
 
                         <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DATE OF REQUISITION</label>
                         <div class="col-sm-9">
-                            <input type="date" class="form-control" id="fname">
+                            <input type="date" class="form-control" id="reqdate" name="substore_req_dt">
                         </div>
 
                       </div>

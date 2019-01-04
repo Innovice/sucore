@@ -170,3 +170,6 @@ Route::get('/non-medical_store/receipt_po_non_medicine_items', function () {
 Route::get('/non-medical_store/receipt_of_items', function () {
     return view('non-medical_store.receipt_of_items');
 });
+Route::get('/non-medical_store/dispatch_of_items', function () {
+    return view('non-medical_store.dispatch_of_items');
+});

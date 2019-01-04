@@ -5,106 +5,61 @@
         <div class="card">
             <form class="form-horizontal">
                 <div class="card-body">
-                    <h4 class="card-title">Receipt of Items</h4>
+                    <h4 class="card-title">Dispatch of Items</h4>
                     <div class="form-group row">
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>INDENT NO.</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">REQUSITION NO</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="indentno" name="nms_indentno">
+                            <input type="text" class="form-control" id="reqno" name="nms_reqno">
                         </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>ITEM</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">REQUISITION DATE</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="item" name="nms_item">
+                            <input type="date" class="form-control" id="reqdt" name="nms_reqdt">
                         </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px"  disabled>QUANTITY REQUESTED</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">NAME OF ITEM</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="qtyreqst" name="nms_qtyreqst">
+                            <input type="text" class="form-control" id="itemname" name="nms_itemname">
                         </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">PO NUMBER</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">SPECIFICATION</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="ponumber" name="nms_ponumber">
+                            <input type="text" class="form-control" id="desc" name="nms_desc">
                         </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">NAME OF PARTY</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">INDENTER</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="partyname" name="nms_partyname">
+                            <input type="text" class="form-control" id="indenter" name="nms_indenter">
                         </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">NAME OF MANUFACTURER</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">ITEM TYPE</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="manfname" name="nms_manfname">
+                            <input type="text" class="form-control" id="itemtype" name="nms_itemtype">
                         </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">LAST DATE OF PO</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">UNITS</label>
                         <div class="col-sm-9">
-                            <input type="date" class="form-control" id="podate" name="nms_podate">
+                            <input type="text" class="form-control" id="units" name="nms_units">
                         </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">UNIT COST</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">QUANTITY DEMANDED</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="itemunitcost" name="nms_itemunitcost">
+                            <input type="number" step="0.01" class="form-control" id="qtyreq" name="nms_qtyreq">
                         </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">TOTAL COST WITH OUT GST</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">LAST QUANTITY RECIEVED</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="costwogst" name="nms_costwogst">
+                            <input type="number" step="0.01" class="form-control" id="lastqty" name="nms_lastqty">
                         </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">GST PERCENTAGE</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">LAST REQUISTION NO</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="gstpercentage" name="nms_gstpcng">
+                            <input type="text" class="form-control" id="lastreqno" name="nms_lastreqno">
                         </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">GST INCLUSIVE / EXCLUSIVE</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">LAST REQUISTION DATE</label>
                         <div class="col-sm-9">
-                          <input type="text" class="form-control" id="gstamount" name="nms_gsttype">
+                            <input type="date" class="form-control" id="lastreqdt" name="nms_lastreqdt">
                         </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">GST AMOUNT</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">BALANCE IN HAND</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="gstamount" name="nms_gstamt">
+                            <input type="number" step="0.01" class="form-control" id="balance" name="nms_balance">
                         </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">GRAND TOTAL</label>
+                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom: 4px;">REMARKS</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="grandtotal" name="nms_grandtotal">
+                            <input type="text" class="form-control" id="remarks" name="nms_remarks">
                         </div>
-
-                        <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">DATE OF RECEIPT</label>
-                        <div class="col-sm-9">
-                            <input type="date" class="form-control" id="podate" name="nms_podate">
-                        </div>
-
-                       <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">CHALLAN NUMBER</label>
-                       <div class="col-sm-9">
-                           <input type="text" class="form-control" id="grandtotal" placeholder="Type Challan number here" name="nms_challanno">
-                       </div>
-
-                       <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">CHALLLAN DATE</label>
-                       <div class="col-sm-9">
-                           <input type="date" class="form-control" id="podate" name="nms_challandt">
-                       </div>
-
-                       <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BILL NO</label>
-                       <div class="col-sm-9">
-                           <input type="text" class="form-control" id="billno" placeholder="Type Bill number here" name="nms_billno">
-                       </div>
-
-                       <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">BILL DATE</label>
-                       <div class="col-sm-9">
-                           <input type="date" class="form-control" id="billdate" name="nms_billdate">
-                       </div>
-
-                       <label for="fname" class="col-sm-3 text-right control-label col-form-label" style="margin-bottom:5px">INSTALLATION DATE</label>
-                       <div class="col-sm-9">
-                           <input type="date" class="form-control" id="installationdate" name="nms_installationdate">
-                       </div>
-
-                      </div>
-
+                    </div>
                 </div>
                 <div class="border-top">
                     <div class="card-body">

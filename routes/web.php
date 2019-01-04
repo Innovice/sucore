@@ -164,3 +164,6 @@ Route::get('/non-medical_store/opening_stock', function () {
 Route::get('/non-medical_store/indent_above_1lakh', function () {
     return view('non-medical_store.indent_above_1lakh');
 });
+Route::get('/non-medical_store/receipt_po_non_medicine_items', function () {
+    return view('non-medical_store.receipt_po_non_medicine_items');
+});
